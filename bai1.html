@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời Khóa Biểu</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+        .info {
+            color: blue;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nen {
+            background-color: yellow;
+            width: 20%;
+        }
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+            height: 150px;
+            margin: 0 auto;
+        }
+        td, th {
+            border: 2px solid black;
+        }
+        .den {
+            font-weight: bold;
+            background-color: orange;
+            text-align: center;
+        }
+        .stt {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>THỜI KHÓA BIỂU</h1>
+    <div class="info">
+        <div>
+            <p>Lớp: T09081</p>
+            <p>Giáo viên: KhoaNV</p>
+            <p>Phòng học: Class3Lab3</p>
+        </div>
+        <div>
+            <p>Ngày học: Thứ 3, 5, 7</p>
+            <p>Thời gian học: 13h30-17h30</p>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th colspan="3"></th>
+            <th class="nen">Thứ 3</th>
+            <th class="nen">Thứ 5</th>
+            <th class="nen">Thứ 7</th>
+        </tr>
+        <tr class="den">
+            <td>Tuần</td>
+            <td>Ngày bắt đầu</td>
+            <td>Ngày kết thúc</td>
+            <td colspan="3" style="text-align: center;">Môn học</td>
+        </tr>
+        <tr>
+            <td class="stt">01</td>
+            <td>01/09/2009</td>
+            <td>05/09/2009</td>
+            <td>CF-T1, L1</td>
+            <td>CF-T2, L2</td>
+            <td>CF-T3, L3</td>
+        </tr>
+        <tr>
+            <td class="stt">02</td>
+            <td>05/09/2009</td>
+            <td>12/09/2009</td>
+            <td>CF-T4, L4</td>
+            <td>CF-Written Test</td>
+            <td>CF-T3, L3</td>
+        </tr>
+        <tr>
+            <td class="stt">03</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
